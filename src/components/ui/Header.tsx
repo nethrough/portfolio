@@ -18,7 +18,7 @@ const Header = () => {
       {activeRoute !== "/" && (
         <Link
           href={"/"}
-          className="p-4 absolute top-0 left-2 text-sm duration-500 hover:text-zinc-300"
+          className="p-4 absolute top-0 left-2 text-sm duration-500 text-muted-foreground hover:text-foreground"
         >
           Home
         </Link>
@@ -28,8 +28,8 @@ const Header = () => {
           <Link
             key={link.href}
             href={link.href}
-            className={`p-4 text-sm duration-500 text-zinc-500 hover:text-zinc-300 ${
-              activeRoute === link.href ? "text-zinc-200" : ""
+            className={`p-4 text-sm duration-500 text-muted-foreground hover:text-foreground ${
+              activeRoute === link.href ? "text-foreground" : ""
             }`}
           >
             {link.name}

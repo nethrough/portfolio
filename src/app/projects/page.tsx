@@ -79,7 +79,7 @@ const PROJECTS = [
 function Page() {
   return (
     <>
-      <div className="container mx-auto md:px-[50px] xl:px-[150px] text-zinc-300 h-full">
+      <div className="container mx-auto md:px-[50px] xl:px-[150px] text-foreground h-full">
         <h1 className="text-4xl mt-[100px] mb-[50px]">Projects</h1>
         <ul className="grid  md:grid-cols-2 lg:grid-cols-3 gap-10 place-content-around ">
           {PROJECTS.map((project) => (
@@ -116,9 +116,9 @@ function Page() {
                   ))}
                 </Splide>
               </div>
-              <div className="p-4 text-zinc-300">
+              <div className="p-4 text-card-foreground">
                 <h2 className="text-xl">{project.name}</h2>
-                <p className="mt-2 text-xs text-zinc-500">
+                <p className="mt-2 text-xs text-muted-foreground">
                   {project.description}
                 </p>
               </div>

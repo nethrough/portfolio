@@ -263,7 +263,7 @@ function Page() {
                       <div className="w-8">{link.icon}</div>
                       <div className="flex flex-col">
                         <div className="text-sm">{link.name}</div>
-                        <div className="text-xs text-zinc-500">
+                        <div className="text-xs text-muted-foreground">
                           {link.content}
                         </div>
                       </div>
