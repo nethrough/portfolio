@@ -1,0 +1,153 @@
+{
+  "personalInfo": {
+    "name": "Nethrough Wickramasinghe",
+    "title": "Full Stack Developer",
+    "email": "nethroughwickramasinghe@yahoo.com",
+    "website": "https://yourwebsite.com",
+    "description": {
+      "short": "Brief one-line description about yourself and what you do",
+      "long": "Detailed description about your background, experience, skills, and what makes you unique. This will appear in meta descriptions and about sections."
+    },
+    "keywords": [
+      "Nethrough Wickramasinghe",
+      "nethrough",
+      "yourwebsite.com",
+      "portfolio",
+      "react",
+      "firebase",
+      "python",
+      "ml",
+      "full stack"
+    ]
+  },
+  "socialMedia": {
+    "twitter": "https://twitter.com/yourusername",
+    "linkedin": "https://www.linkedin.com/in/n-wickramasinghe-1395a0264",
+    "github": "https://github.com/nethrough",
+    "instagram": "https://www.instagram.com/nethrough_wickramasinghe",
+    "facebook": "https://www.facebook.com/nethrough.wickramasinghe"
+  },
+  "projects": [
+    {
+      "id": "project-5-fresh-finds",
+      "category": "web application",
+      "title": "Fresh Finds",
+      "description": "Fresh Finds is a peer-to-peer marketplace for vegetables, fruits, dairy, meat, and eggs. The platform connects farmers, resellers, and end consumers directly, eliminating middlemen and ensuring fair profits for producers. Built with React (Vite), vanilla CSS/JS, Firebase for backend services, and Python for machine learning. Its first AI-powered feature is a price prediction engine that uses historical market data to provide insights into fair pricing and seasonal fluctuations.",
+      "liveUrl": "https://freshfinds-seven.vercel.app",
+      "githubUrl": "https://github.com/nethrough/freshfinds",
+      "screenshots": {
+        "main": "public/assets/projects-screenshots/fresh_finds/project4-main.png",
+        "gallery": [
+          "public/assets/projects-screenshots/fresh_finds/project4-screen1.png",
+          "public/assets/projects-screenshots/fresh_finds/project4-screen2.png"
+        ]
+      },
+      "techStack": {
+        "frontend": ["React", "JavaScript", "CSS", "Vite"],
+        "backend": ["Firebase"],
+        "other": ["Python ML"]
+      },
+      "features": [
+        "Direct farmer-to-consumer sales",
+        "Price prediction engine using machine learning",
+        "Realtime updates with Firebase",
+        "Role-based access for farmers, resellers, and consumers"
+      ]
+    },
+    {
+      "id": "project-1-unique-id",
+      "category": "web application",
+      "title": "Weather APP",
+      "description": "This Weather App was developed as a first-year university project to practice fundamental web development concepts. It is a simple yet functional application built with HTML, CSS, JavaScript, and Vite, and deployed on Vercel. The app allows users to search for a city and view real-time weather details such as temperature, humidity, and conditions by integrating with a weather API. The project's main purpose was to gain hands-on experience with consuming APIs, manipulating the DOM, and deploying a modern web application, while keeping the interface clean and easy to use.",
+      "liveUrl": "https://weather-app-five-beryl-35.vercel.app",
+      "githubUrl": "https://github.com/nethrough/weather-app",
+      "screenshots": {
+        "main": "public/assets/projects-screenshots/weather_app/main-screenshot.png",
+        "gallery": [
+          "public/assets/projects-screenshots/weather_app/screenshot1.png"
+        ]
+      },
+      "techStack": {
+        "frontend": ["HTML", "CSS", "JavaScript", "Vite"],
+        "backend": [""],
+        "other": [""]
+      },
+      "features": [
+        "Search for a city to view real-time weather data.",
+        "Displays information such as temperature, humidity, and weather conditions.",
+        "API integration to fetch live weather details."
+      ]
+    },
+    {
+      "id": "project-2-unique-id",
+      "category": "web application",
+      "title": "AI Voice Notes",
+      "description": "Voice Notes is a 2nd year university project that enables users to record voice notes and automatically convert them into text using OpenAI’s Whisper v3 transcription model. Developed with React (Vite), vanilla JavaScript, and CSS, the app delivers a clean and minimal interface while showcasing how modern AI can be integrated into lightweight web applications. This project highlights both frontend development skills and the practical application of AI-powered speech-to-text technology.",
+      "liveUrl": "https://voice-notes-beryl.vercel.app",
+      "githubUrl": "https://github.com/nethrough/voice_notes",
+      "screenshots": {
+        "main": "public/assets/projects-screenshots/voice_notes/project2-main.png",
+        "gallery": [
+          "public/assets/projects-screenshots/voice_notes/project2-screen1.png"
+        ]
+      },
+      "techStack": {
+        "frontend": ["React", "JavaScript", "CSS"],
+        "backend": ["OpenAI"],
+        "other": []
+      },
+      "features": [
+        "Voice Recording – Record voice notes directly in the browser.",
+        "AI-Powered Transcription – Convert speech to text using Whisper v3."
+      ]
+    },
+    {
+      "id": "project-3-unique-id",
+      "category": "web application",
+      "title": "Hand Crafts",
+      "description": "Handi Crafts is a modern, responsive web application built with React and Vite, designed to showcase and promote handcrafted goods. Styled using Tailwind CSS, the site provides a clean and user-friendly interface for browsing products, highlighting the artistry and uniqueness of each item. The project emphasizes fast performance, modular code structure, and an intuitive user experience, making it suitable for small businesses or artisans looking to present their creations online.",
+      "liveUrl": "https://handloom-three.vercel.app",
+      "githubUrl": "https://github.com/Yasindu20/Handi-Craft-Site",
+      "screenshots": {
+        "main": "public/assets/projects-screenshots/hand_crafts/project3-main.png",
+        "gallery": [
+          "public/assets/projects-screenshots/hand_crafts/project3-screen1.png",
+          "public/assets/projects-screenshots/hand_crafts/project3-screen2.png"
+        ]
+      },
+      "techStack": {
+        "frontend": ["React", "JavaScript", "Tailwind CSS"],
+        "backend": ["Node js","Firebase"],
+        "other": []
+      },
+      "features": [
+        "Displays handcrafted items with images and descriptions.",
+        "Optimized build process and lightning-fast development server."
+      ]
+    },
+    {
+      "id": "project-4-unique-id",
+      "category": "web application",
+      "title": "Tech HUB",
+      "description": "Techhub Pro is a modern, web-based computer shop management system designed to streamline daily operations for computer retail businesses. It allows shop owners and staff to efficiently manage inventory, track sales, generate invoices, and maintain customer records, all from a single platform. The system also provides reporting features to monitor stock levels, sales trends, and financial performance, helping businesses make data-driven decisions.",
+      "liveUrl": "https://techhub-pro.vercel.app",
+      "githubUrl": "https://github.com/Yasindu20/Techhub-Pro-Computer-Shop",
+      "screenshots": {
+        "main": "public/assets/projects-screenshots/tech_hub/project4-main.png",
+        "gallery": [
+          "public/assets/projects-screenshots/tech_hub/project4-screen1.png",
+          "public/assets/projects-screenshots/tech_hub/project4-screen2.png"
+        ]
+      },
+      "techStack": {
+        "frontend": ["React", "JavaScript", "Tailwind CSS"],
+        "backend": ["Node js","Firebase", "MongoDB"],
+        "other": []
+      },
+      "features": [
+        "Product inventory management with stock tracking",
+        "Sales and billing system with invoice generation"
+      ]
+    }
+  ]
+}
