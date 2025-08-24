@@ -62,7 +62,7 @@ const HeroSection = () => {
                       side="top"
                       className="dark:bg-white dark:text-black"
                     >
-                      theres something waiting for you in devtools
+                      nethrough wickramasinghe
                     </TooltipContent>
                   </Tooltip>
                 </BlurIn>
@@ -81,7 +81,7 @@ const HeroSection = () => {
               <div className="mt-8 md:ml-2 flex flex-col gap-3">
                 <Link
                   href={
-                    "#resume"
+                    "/CV/Nethrough Wickramasinghe.pdf"
                   }
                   target="_blank"
                   className="flex-1"
